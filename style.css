@@ -1,7 +1,7 @@
 body{
     margin: auto;
     width: 75%;
-    max-width: 1280px;
+    max-width: 960px;
     background-color: #f1f1f1;
     font-family:'Open Sans','Hiragino Sans GB','冬青黑体简体中文 W3','Microsoft Yahei UI','Microsoft Yahei',sans-serif;
     font-size:15px;
@@ -9,6 +9,7 @@ body{
 
 #yoku-header{
     display: block;
+    margin-top: 30px;
     width: 600px;
     height: 100px;
     background-image: url('./assets/yoku_logo.png');
