@@ -1,6 +1,6 @@
 ---
-　　layout: default
-　　title: Hello World
+layout: default
+title: Hello World
 ---
 
 # It works!
