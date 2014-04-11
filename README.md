@@ -60,10 +60,10 @@ Maybe no one, but I don't care
 
 ### Why using LaTeX?
 I'm a Windows user and it was very difficult for me to do something regarded ease under Linux, for example compiling ProGit. If I were Ninja, maybe I could manage it. And I've read some introductions to Markdown and Docbook and decide to use a tool that I happend to (partly) understand. Well, LaTeX seems sophiscated but it will be far better than MS Office Word.
-=======
+
 ### Why using markdown?
 Because it is simpler than html and well-supported by Github Pages and jekyll. In addition, with existing tools like pandoc, it can be easily converted to other doctypes like pdf.
->>>>>>> refs/heads/gh-pages
+
 
 ### In which language?
 First Chinese then translated into English and French.
