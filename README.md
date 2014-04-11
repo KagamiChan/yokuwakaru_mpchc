@@ -1,12 +1,5 @@
 yokuwakaru_mpchc
 ================
-<<<<<<< HEAD
-This aims to be a simple tutorial for mpc-hc
---------------------------------------------
-
-###Why repo empty?
-I will try my best to fill it in the rest of my life...contact me if you want to pull something, as I may miss notifications.
-=======
 简单易懂的Media Player Classic - Homecinema
 --------------------------------------------
 
