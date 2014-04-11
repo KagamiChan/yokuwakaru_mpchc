@@ -1,11 +1,55 @@
 ---
 layout: default
-title: Hello World
+title: 简单易懂的Media Player Classic - Homecinema
 ---
-　　<h2>{{ page.title }}</h2>
-　　<p>最新文章</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
+<h1>{{ page.title }}</h1>
+
+“{{ page.title }}”这个项目初衷是希望给对鼓捣视频播放器感兴趣的普通用户一些简单的入门指导。
+
+在<a href="https://www.nmm-hd.org/newbbs/viewtopic.php?f=17&amp;t=540"><del>无人问津的</del>1.x版本</a>和中途荒废的<a title="mpc-hc教程，某个坑" href="http://kagamichan.me/log/mpc-hc%e6%95%99%e7%a8%8b%ef%bc%8c%e6%9f%90%e4%b8%aa%e5%9d%91/">2.x版本</a>之后，我终于有了写作第三版的想法，目前只是开了一个小坑。个人觉得之前的那个提纲改一改还是可以继续用的：
+
+<pre>Mpc-hc教学
+1.序言
+
+2.基本概念、片源
+
+分辨率、码率、流
+
+3.主流的视频编码格式
+
+MPEG2、Xvid、DivX、RM/RMVB、Wmv/vc-1、h.264/AVC、VPx
+
+4.主流的音频编码格式
+
+PCM、MP3、AAC、OGG/Vorbis、APE、FLAC、TTA、AC3
+
+5.主流的封装格式
+
+AVI、Vorbis、Matroska、MP4
+
+6.Mpc-hc简要绍介
+
+MPC、主要功能
+
+7.Mpc-hc的简单设置
+
+8.外挂滤镜介绍1：分离器、解码器
+
+Haali splitter、lavF splitter
+
+FFdshow、CoreAVC、Microsoft
+
+9.外挂滤镜介绍2：字幕滤镜、渲染器
+
+DirectVobSub/Vsfilter、FFdshow Subtitle Renderer
+
+VMR、EVR、Haali、MadVR
+
+10.一些杂七杂八的事情</pre>
+
+目前计划用markdown来写作，用github+jekyll来host。不过最近比较忙，什么时候完工真的是未知数……
+<ul>
+    {% for post in site.posts %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
