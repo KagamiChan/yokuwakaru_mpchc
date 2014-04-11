@@ -1,1 +1,3 @@
 baseurl: ./yokuwakaru_mpchc
+
+markdown: kramdown
