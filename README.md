@@ -46,9 +46,9 @@ yokuwakaru_mpchc
 
     10.一些杂七杂八的事情
 
-目前计划用'markdown'来写作，用'github+jekyll'来host。不过最近比较忙，什么时候完工真的是未知数……
+目前计划用`markdown`来写作，用`github+jekyll`来host。不过最近比较忙，什么时候完工真的是未知数……
 
-对于本项目的各种建议与意见，可以造访鄙人的个人网站<http://kagamichan.me>，或者邮件'seki # kagamichan.me'。
+对于本项目的各种建议与意见，可以造访鄙人的个人网站<http://kagamichan.me>，或者邮件`seki # kagamichan.me`。
 
 ### Why we need a tutorial for a software already very easy to use?
 Because some users don't know much about terms like AVC/H.264 or 10bits. On the other hand they ask why it dose not function as supposed or is there any more stuffs to improve the experience.
