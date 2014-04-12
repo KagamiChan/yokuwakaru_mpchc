@@ -58,6 +58,8 @@ pre{
 code{
     background-color: #b3d465;
     color: #009944;
+    padding-left: 0.5ex;
+    padding-right: 0.5ex;
 }
 
 a{
