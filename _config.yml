@@ -1,3 +1,5 @@
-baseurl: .
+baseurl: /
+
+url: http://mpc-hc.kagamichan.me/
 
 markdown: kramdown
