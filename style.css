@@ -34,10 +34,7 @@ body{
     opacity: 0.8;
     background-position: 0 100px;
 
-    transition:all 0.25s;
-    -moz-transition:all 0.25s; 
-    -webkit-transition:all 0.25s; 
-    -o-transition:all 0.25s; 
+
 }
 
 pre{
