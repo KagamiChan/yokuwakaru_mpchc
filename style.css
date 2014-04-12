@@ -56,10 +56,10 @@ pre{
 }
 
 code{
-    background-color: #b3d465;
-    color: #009944;
+    color: #b3d465;
     padding-left: 0.5ex;
     padding-right: 0.5ex;
+    border-left: 5px solid #b3d465;
 }
 
 a{
