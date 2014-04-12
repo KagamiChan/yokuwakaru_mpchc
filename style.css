@@ -56,18 +56,20 @@ pre{
 }
 
 code{
-    color: #3399ff;
+    background-color: #3399ff;
+    color: white;
     padding-left: 0.5ex;
     padding-right: 0.5ex;
+    font-family: 'Inconsolata','Hiragino Sans GB','冬青黑体简体中文 W3','Microsoft Yahei UI','Microsoft Yahei',sans-serif;
 }
 
-code:before{
+/*code:before{
     font-family: 'FontAwesome';
     content: "\f121";
     display: inline-block;
     padding-right: 0.2em; 
     color: #3399ff;
-}
+}*/
 
 a{
     color: #3399ff;
