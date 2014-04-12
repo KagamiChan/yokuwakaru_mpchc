@@ -17,6 +17,18 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Inconsolata|Open+Sans' rel='stylesheet' type='text/css'>
     <link href='{{ site.url }}/style.css' rel='stylesheet' type='text/css'/>
+    <link href='{{ site.url }}/flexible-nav.css' rel='stylesheet' type='text/css'/>
+
+    <script type="text/javascript" src="{{ site.url }}/assets/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/assets/flexible-nav.min.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+        var nav = new FlexibleNavMaker().make().prependTo('body');
+        new FlexibleNav(nav);
+      })
+    </script>
+
     <title>简单易懂的mpc-hc::{{ page.title }}</title>
 
     <!--HTML5Shiv-->
