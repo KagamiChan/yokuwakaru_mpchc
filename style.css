@@ -91,8 +91,13 @@ h1,h2,h3,h4,h5,h6 {
     border-bottom: 1px solid #b3d465;
 }
 
-h1,h2,h3,h4,h5,h6 :before{
-    font-family: FontAwesome;
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before{
+    font-family: 'FontAwesome';
     content: "\f054";
     display: inline-block;
     padding-right: 1em; 
