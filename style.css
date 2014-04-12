@@ -28,6 +28,11 @@ body{
 
     text-indent: -9999px;
     overflow: hidden;
+
+    transition:none;
+    -moz-transition:none;
+    -webkit-transition:none;
+    -o-transition:none;
 }
 
 #yoku-header:hover{
