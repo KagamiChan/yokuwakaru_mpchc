@@ -32,7 +32,7 @@ body{
 
 #yoku-header:hover{
     opacity: 0.8;
-    background-position: 0 200px;
+    background-position: 0 100px;
 
     transition:all 0.25s;
     -moz-transition:all 0.25s; 
