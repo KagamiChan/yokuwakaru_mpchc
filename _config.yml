@@ -4,6 +4,6 @@ url: http://mpc-hc.kagamichan.me
 
 markdown: kramdown
 
-permalink: ./:title.html
+permalink: /:title.html
 
 timezone: Asia/Shanghai
