@@ -1874,32 +1874,32 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+  font-family: Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   code:lang(zh),
   kbd:lang(zh),
   pre:lang(zh),
   samp:lang(zh) {
-    font-family: "Biaodian Sans", Menlo, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: "Biaodian Sans", Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   code:lang(ja),
   kbd:lang(ja),
   pre:lang(ja),
   samp:lang(ja) {
-    font-family: "Yakumono Sans", Menlo, Courier; }
+    font-family: "Yakumono Sans", Menlo, Inconsolata, Courier; }
   html.han-biaodian-pro code, html.han-biaodian-pro
   kbd, html.han-biaodian-pro
   pre, html.han-biaodian-pro
   samp {
-    font-family: "Biaodian Pro Sans", Menlo, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: "Biaodian Pro Sans", Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   html.han-biaodian-pro-cns code, html.han-biaodian-pro-cns
   kbd, html.han-biaodian-pro-cns
   pre, html.han-biaodian-pro-cns
   samp {
-    font-family: "Biaodian Pro Sans CNS", Menlo, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: "Biaodian Pro Sans CNS", Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   html.han-biaodian-pro-gb code, html.han-biaodian-pro-gb
   kbd, html.han-biaodian-pro-gb
   pre, html.han-biaodian-pro-gb
   samp {
-    font-family: "Biaodian Pro Sans GB", Menlo, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: "Biaodian Pro Sans GB", Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   code:not(:lang(zh)):not(:lang(ja)),
   code *:not(:lang(zh)):not(:lang(ja)),
   kbd:not(:lang(zh)):not(:lang(ja)),
@@ -1908,7 +1908,7 @@ samp {
   pre *:not(:lang(zh)):not(:lang(ja)),
   samp:not(:lang(zh)):not(:lang(ja)),
   samp *:not(:lang(zh)):not(:lang(ja)) {
-    font-family: Menlo, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
 
 /*
  * 變音文字及變數
