@@ -23,8 +23,10 @@ html {
 /**
  * Remove default margin.
  */
-body {
-  margin: 0; }
+
+ /*WTF are you doing this?*/
+/*body {
+  margin: 0; }*/
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -1061,7 +1063,7 @@ th {
 @font-face {
   unicode-range: U+0030-0039;
   font-family: 'Numeral LF Sans';
-  src: local("Helvetica Neue"), local(Helvetica), local(Arial); }
+  src: local("Open Sans"), local(Helvetica), local(Arial); }
 
 @font-face {
   unicode-range: U+0030-0039;
@@ -1768,18 +1770,18 @@ html.han-la ul > hanla {
  * Base
  * ========================================================================== */
 html:lang(zh) {
-  font-family: "Biaodian Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Biaodian Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 html:lang(ja) {
-  font-family: "Yakumono Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Yakumono Sans", "Open Sans", Helvetica, Arial, sans-serif; }
 html.han-biaodian-pro {
-  font-family: "Biaodian Pro Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Biaodian Pro Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 html.han-biaodian-pro-cns {
-  font-family: "Biaodian Pro Sans CNS", "Helvetica Neue", Helvetica, Arial, "Han Heiti CNS", sans-serif; }
+  font-family: "Biaodian Pro Sans CNS", "Open Sans", Helvetica, Arial, "Han Heiti CNS", sans-serif; }
 html.han-biaodian-pro-gb {
-  font-family: "Biaodian Pro Sans GB", "Helvetica Neue", Helvetica, Arial, "Han Heiti GB", sans-serif; }
+  font-family: "Biaodian Pro Sans GB", "Open Sans", Helvetica, Arial, "Han Heiti GB", sans-serif; }
 html:not(:lang(zh)):not(:lang(ja)),
 html *:not(:lang(zh)):not(:lang(ja)) {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 
 /* 內容群組元素
  * Grouping content
@@ -1814,17 +1816,17 @@ html.han-biaodian-pro-gb article figure blockquote {
   font-family: 'Biaodian Pro Serif GB', 'Numeral LF Serif', Georgia, 'Times New Roman', 'Han Songti GB', serif; }
 
 article figure figcaption:lang(zh) {
-  font-family: "Biaodian Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif;
+  font-family: "Biaodian Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif;
   font-size: 0.85em; }
 article figure figcaption:lang(ja) {
-  font-family: "Yakumono Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yakumono Sans", "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 0.85em; }
 html.han-biaodian-pro article figure figcaption {
-  font-family: "Biaodian Pro Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Biaodian Pro Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 html.han-biaodian-pro-cns article figure figcaption {
-  font-family: "Biaodian Pro Sans CNS", "Helvetica Neue", Helvetica, Arial, "Han Heiti CNS", sans-serif; }
+  font-family: "Biaodian Pro Sans CNS", "Open Sans", Helvetica, Arial, "Han Heiti CNS", sans-serif; }
 html.han-biaodian-pro-gb article figure figcaption {
-  font-family: "Biaodian Pro Sans GB", "Helvetica Neue", Helvetica, Arial, "Han Heiti GB", sans-serif; }
+  font-family: "Biaodian Pro Sans GB", "Open Sans", Helvetica, Arial, "Han Heiti GB", sans-serif; }
 article figure figcaption:not(:lang(zh)):not(:lang(ja)),
 article figure figcaption *:not(:lang(zh)):not(:lang(ja)) {
   font-family: Georgia, Times, "Times New Roman", "Han Kaiti", cursive, "Han Songti", serif; }
@@ -1853,18 +1855,18 @@ cite:lang(en).piece:before, cite:lang(en).piece:after {
  * Importance in article
  */
 article strong:lang(zh) {
-  font-family: "Biaodian Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Biaodian Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 article strong:lang(ja) {
-  font-family: "Yakumono Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Yakumono Sans", "Open Sans", Helvetica, Arial, sans-serif; }
 html.han-biaodian-pro article strong {
-  font-family: "Biaodian Pro Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Biaodian Pro Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 html.han-biaodian-pro-cns article strong {
-  font-family: "Biaodian Pro Sans CNS", "Helvetica Neue", Helvetica, Arial, "Han Heiti CNS", sans-serif; }
+  font-family: "Biaodian Pro Sans CNS", "Open Sans", Helvetica, Arial, "Han Heiti CNS", sans-serif; }
 html.han-biaodian-pro-gb article strong {
-  font-family: "Biaodian Pro Sans GB", "Helvetica Neue", Helvetica, Arial, "Han Heiti GB", sans-serif; }
+  font-family: "Biaodian Pro Sans GB", "Open Sans", Helvetica, Arial, "Han Heiti GB", sans-serif; }
 article strong:not(:lang(zh)):not(:lang(ja)),
 article strong *:not(:lang(zh)):not(:lang(ja)) {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
 /*
  * 代碼、輸入鍵、計算機輸出示例、格式預處理文字
@@ -1874,12 +1876,12 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+  font-family: Menlo, Inconsolata, Courier, "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   code:lang(zh),
   kbd:lang(zh),
   pre:lang(zh),
   samp:lang(zh) {
-    font-family: "Biaodian Sans", Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: "Biaodian Sans", Menlo, Inconsolata, Courier, "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   code:lang(ja),
   kbd:lang(ja),
   pre:lang(ja),
@@ -1889,17 +1891,17 @@ samp {
   kbd, html.han-biaodian-pro
   pre, html.han-biaodian-pro
   samp {
-    font-family: "Biaodian Pro Sans", Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: "Biaodian Pro Sans", Menlo, Inconsolata, Courier, "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   html.han-biaodian-pro-cns code, html.han-biaodian-pro-cns
   kbd, html.han-biaodian-pro-cns
   pre, html.han-biaodian-pro-cns
   samp {
-    font-family: "Biaodian Pro Sans CNS", Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: "Biaodian Pro Sans CNS", Menlo, Inconsolata, Courier, "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   html.han-biaodian-pro-gb code, html.han-biaodian-pro-gb
   kbd, html.han-biaodian-pro-gb
   pre, html.han-biaodian-pro-gb
   samp {
-    font-family: "Biaodian Pro Sans GB", Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: "Biaodian Pro Sans GB", Menlo, Inconsolata, Courier, "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
   code:not(:lang(zh)):not(:lang(ja)),
   code *:not(:lang(zh)):not(:lang(ja)),
   kbd:not(:lang(zh)):not(:lang(ja)),
@@ -1908,7 +1910,7 @@ samp {
   pre *:not(:lang(zh)):not(:lang(ja)),
   samp:not(:lang(zh)):not(:lang(ja)),
   samp *:not(:lang(zh)):not(:lang(ja)) {
-    font-family: Menlo, Inconsolata, Courier, "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
+    font-family: Menlo, Inconsolata, Courier, "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif, sans-serif; }
 
 /*
  * 變音文字及變數
@@ -1931,32 +1933,32 @@ var {
   font-family: "Biaodian Pro Sans GB", "Latin Italic Serif", Georgia, Times, "Times New Roman", "Han Kaiti", cursive, "Han Songti", serif; }
 i:not(:lang(zh)):not(:lang(ja)),
 var:not(:lang(zh)):not(:lang(ja)) {
-  font-family: "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Latin Italic Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 i *:not(:lang(zh)):not(:lang(ja)),
 var *:not(:lang(zh)):not(:lang(ja)) {
   font-family: "Latin Italic Serif", Georgia, Times, "Times New Roman", "Han Songti", serif; }
 
 article blockquote i:lang(zh),
 article blockquote var:lang(zh) {
-  font-family: "Biaodian Sans", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Biaodian Sans", "Latin Italic Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 article blockquote i:lang(ja),
 article blockquote var:lang(ja) {
   font-family: "Yakumono Sans", "Latin Italic Sans", sans-serif; }
 html.han-biaodian-pro article blockquote i, html.han-biaodian-pro
 article blockquote var {
-  font-family: "Biaodian Pro Sans", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Biaodian Pro Sans", "Latin Italic Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 html.han-biaodian-pro-cns article blockquote i, html.han-biaodian-pro-cns
 article blockquote var {
-  font-family: "Biaodian Pro Sans CNS", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Biaodian Pro Sans CNS", "Latin Italic Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 html.han-biaodian-pro-gb article blockquote i, html.han-biaodian-pro-gb
 article blockquote var {
-  font-family: "Biaodian Pro Sans GB", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Biaodian Pro Sans GB", "Latin Italic Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 article blockquote i:not(:lang(zh)):not(:lang(ja)),
 article blockquote var:not(:lang(zh)):not(:lang(ja)) {
   font-family: "Latin Italic Serif", Georgia, Times, "Times New Roman", "Han Songti", serif; }
 article blockquote i *:not(:lang(zh)):not(:lang(ja)),
 article blockquote var *:not(:lang(zh)):not(:lang(ja)) {
-  font-family: "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif; }
+  font-family: "Latin Italic Sans", "Open Sans", Helvetica, Arial, "Han Heiti", sans-serif; }
 
 /*
  * 小字標注
